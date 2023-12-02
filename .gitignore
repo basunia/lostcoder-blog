@@ -40,3 +40,6 @@ packages
 
 # ASDF tools manager (https://asdf-vm.com) related 
 **/.tool-versions
+
+temp/
+/stderr.log
