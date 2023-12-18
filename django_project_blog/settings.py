@@ -34,6 +34,8 @@ ALLOWED_HOSTS = ['lostcoder.net','127.0.0.1']
 INSTALLED_APPS = [
     "django.contrib.admin",
     "django.contrib.auth",
+    "crispy_forms",
+    "crispy_bootstrap5",
     "django.contrib.contenttypes",
     "django.contrib.sessions",
     "django.contrib.messages",
@@ -140,4 +142,9 @@ STATIC_DIR = os.path.join(BASE_DIR, "static")
 # STATICFILES_DIRS = (
 #     os.path.join(BASE_DIR, 'static'),
 # )
+
 STATIC_ROOT = "/home/lostcode/public_html/static/"
+
+CRISPY_TEMPLATE_PACK = 'bootstrap5'
+
+CRISPY_ALLOWED_TEMPLATE_PACKS = "bootstrap5"
