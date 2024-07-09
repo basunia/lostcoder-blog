@@ -39,11 +39,11 @@ INSTALLED_APPS = [
     "django.contrib.contenttypes",
     "django.contrib.sessions",
     "django.contrib.messages",
-    "livereload",
+    # "livereload",
     "django.contrib.staticfiles",
-    "example_app",
     "blog",
     "users",
+    "ingredients"
 ]
 
 MIDDLEWARE = [
@@ -54,7 +54,7 @@ MIDDLEWARE = [
     "django.contrib.auth.middleware.AuthenticationMiddleware",
     "django.contrib.messages.middleware.MessageMiddleware",
     "django.middleware.clickjacking.XFrameOptionsMiddleware",
-    "livereload.middleware.LiveReloadScript"
+    # "livereload.middleware.LiveReloadScript"
 ]
 
 ROOT_URLCONF = "django_project_blog.urls"
