@@ -5,7 +5,7 @@ from ingredients.models import Category, Ingredient
 class CategoryType(DjangoObjectType):
     class Meta:
         model = Category
-        fields = ("id", "name", "ingredientis")
+        fields = ("id", "name", "ingredients")
         
         
 class IngredientType(DjangoObjectType):
