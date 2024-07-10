@@ -44,7 +44,8 @@ INSTALLED_APPS = [
     "django.contrib.staticfiles",
     "blog",
     "users",
-    "ingredients"
+    "ingredients",
+    "graphene_django"
 ]
 
 MIDDLEWARE = [
@@ -77,6 +78,11 @@ TEMPLATES = [
 ]
 
 WSGI_APPLICATION = "django_project_blog.wsgi.application"
+
+
+# GRAPHENE = {
+#     "SCHEMA": "django_project_blog.schema.schema"
+# }
 
 
 # Database
